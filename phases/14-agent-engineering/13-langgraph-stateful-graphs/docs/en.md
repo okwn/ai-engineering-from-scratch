@@ -94,7 +94,7 @@ The trace shows the first run failing at the human gate, persistence, then resum
 
 ## Exercises
 
-1. Add a conditional edge from `classify` to `end` when classification confidence is below a threshold. Resume the run after a human sets `route` manually.
+1. Add a conditional edge from `classify` to `end` when classification confidence is below a threshold. Resume the run after a human sets `route` mannually.
 2. Swap the SQLite-like fake for a real SQLite checkpointer. Measure per-step serialization overhead.
 3. Implement parallel edges: two nodes run concurrently, merge by a custom reducer. What does immutable state buy here?
 4. Read `langgraph-supervisor` reference. Port the toy to `create_supervisor`. Compare the trace shapes.

@@ -95,7 +95,7 @@ This beats single-stage retrieval by 10-15% on precision metrics. Use when accur
 If search results are poor:
 
 1. Verify the query embedding is non-zero (empty or whitespace input produces zero vectors)
-2. Check a known-relevant document's similarity score manually
+2. Check a known-relevant document's similarity score mannually
 3. Try rephrasing the query to match document vocabulary
 4. Inspect chunk boundaries to ensure relevant content is not split across chunks
 5. Compare top-k results across metrics (cosine, dot, euclidean) to spot normalization issues

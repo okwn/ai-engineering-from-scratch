@@ -286,7 +286,7 @@ def init_params(key):
     return params
 ```
 
-He-initialization, done manually. Three PRNG keys split from one seed. Every weight is an immutable array in a nested dict.
+He-initialization, done mannually. Three PRNG keys split from one seed. Every weight is an immutable array in a nested dict.
 
 ### Step 3: Forward Pass
 

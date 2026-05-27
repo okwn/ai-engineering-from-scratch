@@ -81,7 +81,7 @@ The file `code/.vscode/extensions.json` in this lesson contains the full recomme
 
 ### Step 3: Configure Settings
 
-Copy the settings from `code/.vscode/settings.json` in this lesson, or apply them manually through `Settings > Open Settings (JSON)`.
+Copy the settings from `code/.vscode/settings.json` in this lesson, or apply them mannually through `Settings > Open Settings (JSON)`.
 
 The key settings for AI work:
 

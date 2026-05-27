@@ -49,7 +49,7 @@ The self-hosted framing matters — the benchmark is not flaky because the targe
 ### Follow-ups
 
 - **OSWorld-G** — 564-sample grounding suite + Jedi training set. Decomposes grounding from planning so you can measure them separately.
-- **OSWorld-Human** — manually curated gold action trajectories. Shows top agents use 1.4-2.7x more steps than necessary (the trajectory-efficiency gap).
+- **OSWorld-Human** — mannually curated gold action trajectories. Shows top agents use 1.4-2.7x more steps than necessary (the trajectory-efficiency gap).
 
 ### Why this matters
 

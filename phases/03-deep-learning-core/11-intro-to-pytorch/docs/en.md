@@ -137,7 +137,7 @@ class MLP(nn.Module):
         return x
 ```
 
-When you assign an `nn.Module` or `nn.Parameter` as an attribute in `__init__`, PyTorch automatically registers it. `model.parameters()` recursively collects every registered parameter. This is why you never have to manually gather weights like you did in the mini framework.
+When you assign an `nn.Module` or `nn.Parameter` as an attribute in `__init__`, PyTorch automatically registers it. `model.parameters()` recursively collects every registered parameter. This is why you never have to mannually gather weights like you did in the mini framework.
 
 Key building blocks:
 

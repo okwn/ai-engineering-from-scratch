@@ -30,7 +30,7 @@ If you have the `blueprint-diagram` skill installed:
 1. Run the skill with a description of the concept.
 2. The skill writes the SVG to `site/assets/figures/NNN-slug.svg`, appends a row here with the next available number, and (if asked) wires the figure into the relevant lesson markdown via `![FIG_NNN](path)`.
 
-If you don't have the skill, do it manually:
+If you don't have the skill, do it mannually:
 
 1. Author an SVG in the cream + blueprint aesthetic (cream `#fafaf5` paper, `#3553ff` blueprint blue strokes, JetBrains Mono uppercase labels with leader lines, no other chromatic accents).
 2. Save as `site/assets/figures/<NNN>-<slug>.svg` using the next available FIG number from the table above.

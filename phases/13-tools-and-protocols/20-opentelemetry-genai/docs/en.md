@@ -93,7 +93,7 @@ All speak OTLP, the wire format. Your code does not care.
 
 When an MCP client calls a server, inject the W3C traceparent header into the request. Streamable HTTP supports standard headers. Stdio does not carry HTTP headers natively; the spec's 2026 roadmap discusses adding a `_meta.traceparent` field on JSON-RPC calls.
 
-Until that ships: include the traceparent in the `_meta` of every request manually. Server logs the trace id.
+Until that ships: include the traceparent in the `_meta` of every request mannually. Server logs the trace id.
 
 ### Metrics
 
