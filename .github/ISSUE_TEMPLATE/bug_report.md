@@ -1,31 +1,22 @@
 ---
 name: Bug report
-about: Something in a lesson or on the site is wrong
-title: "[bug] "
+about: Create a report to help us improve
+title: ''
 labels: bug
+assignees: ''
+
 ---
 
-## Where
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-- Phase / lesson: <!-- e.g. Phase 4 · 06-object-detection-yolo -->
-- File / URL: <!-- e.g. phases/04-computer-vision/06-object-detection-yolo/code/main.py or aiengineeringfromscratch.com/lesson.html?path=... -->
+**To Reproduce**
+Steps to reproduce the behavior:
+1. 
+2. 
 
-## What's wrong
+**Expected behavior**
+A clear description of what you expected to happen.
 
-<!-- One-paragraph description. What did you expect vs. what you saw. -->
-
-## Reproduce
-
-1.
-2.
-3.
-
-## Environment
-
-- OS:
-- Python / Node / other runtime version:
-- How you ran it (local, Colab, Docker, etc.):
-
-## Screenshot or logs
-
-<!-- Drop a screenshot or paste the traceback if you have one. -->
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
