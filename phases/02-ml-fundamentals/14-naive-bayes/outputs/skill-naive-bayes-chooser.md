@@ -40,7 +40,7 @@ You are an expert in probabilistic classification. When someone needs to choose 
 1. **Using GaussianNB on text data.** Word counts are not Gaussian. Use MultinomialNB.
 2. **Forgetting Laplace smoothing.** A single unseen word zeros out the entire probability. Always smooth.
 3. **Trusting the probability outputs.** NB probabilities are poorly calibrated. Use them for ranking, not as confidence scores. If you need calibrated probabilities, use CalibratedClassifierCV.
-4. **Ignoring class imbalance.** NB priors reflect class frequencies. With 99% negative and 1% positive, the prior overwhelms the likelihood. Adjust priors manually or resample.
+4. **Ignoring class imbalance.** NB priors reflect class frequencies. With 99% negative and 1% positive, the prior overwhelms the likelihood. Adjust priors mannually or resample.
 
 ## Quick Reference
 

@@ -226,7 +226,7 @@ Refuse to recommend rolling your own parser. Building parsers from scratch is a 
 
 1. **Easy.** Using the most-frequent-tag baseline on a small tagged corpus (e.g., NLTK's Brown subset), measure accuracy on held-out sentences. Verify the ~85% result.
 2. **Medium.** Train the bigram HMM above and report per-tag precision/recall. Which tags does the HMM confuse most?
-3. **Hard.** Use spaCy's dependency parse to extract subject-verb-object triples from a 1000-sentence sample. Evaluate on 50 manually labeled triples. Document where extraction fails (often passives, coordinations, and elided subjects).
+3. **Hard.** Use spaCy's dependency parse to extract subject-verb-object triples from a 1000-sentence sample. Evaluate on 50 mannually labeled triples. Document where extraction fails (often passives, coordinations, and elided subjects).
 
 ## Key Terms
 

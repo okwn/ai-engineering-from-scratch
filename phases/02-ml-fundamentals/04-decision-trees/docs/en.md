@@ -342,7 +342,7 @@ This lesson produces `outputs/prompt-tree-interpreter.md` -- a prompt that inter
 
 ## Exercises
 
-1. Train a single decision tree on a 2D dataset with 3 classes. Manually trace the splits and draw the rectangular decision boundaries. Compare the boundaries at max_depth=2 vs max_depth=10.
+1. Train a single decision tree on a 2D dataset with 3 classes. Mannually trace the splits and draw the rectangular decision boundaries. Compare the boundaries at max_depth=2 vs max_depth=10.
 
 2. Implement variance reduction splitting for regression trees. Generate y = sin(x) + noise for 200 points and fit your regression tree. Plot the tree's piecewise-constant predictions against the true curve.
 

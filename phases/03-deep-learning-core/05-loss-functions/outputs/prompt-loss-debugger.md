@@ -34,7 +34,7 @@ Common patterns and their causes:
 
 **Loss is very high and barely decreasing:**
 - Label encoding mismatch: Check that targets match loss function expectations
-- Softmax applied twice: If using F.cross_entropy, do NOT apply softmax manually
+- Softmax applied twice: If using F.cross_entropy, do NOT apply softmax mannually
 - Wrong sign: Loss should use negative log likelihood, not positive
 
 **All predictions are the same value (e.g., 0.5):**

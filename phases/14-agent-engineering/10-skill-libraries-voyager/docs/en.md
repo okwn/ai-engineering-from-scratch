@@ -80,7 +80,7 @@ This is Self-Refine (Lesson 05) applied to code generation with environment-grou
 
 Voyager's curriculum module proposes tasks like "build a shelter near the lake" based on what the agent has and what it has not yet done. The proposer uses the environment state + skill inventory to pick a task just above current capability — the exploration sweet spot.
 
-For production agents this translates to a "what's missing" operator: given the current skill library and a domain, what skills are we not yet covering? Teams typically implement this manually as curriculum review.
+For production agents this translates to a "what's missing" operator: given the current skill library and a domain, what skills are we not yet covering? Teams typically implement this mannually as curriculum review.
 
 ### Where this pattern goes wrong
 

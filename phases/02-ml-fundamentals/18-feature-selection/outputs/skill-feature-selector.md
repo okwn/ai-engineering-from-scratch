@@ -75,5 +75,5 @@ This takes seconds and can eliminate 10-30% of features in messy real-world data
 - [ ] Selected features documented (names, method used, scores)
 - [ ] Performance compared: selected features vs all features
 - [ ] Cross-validated, not single-split evaluation
-- [ ] Feature selection integrated into the training pipeline (not done manually)
+- [ ] Feature selection integrated into the training pipeline (not done mannually)
 - [ ] Monitoring in place for feature drift (selected features may become stale)

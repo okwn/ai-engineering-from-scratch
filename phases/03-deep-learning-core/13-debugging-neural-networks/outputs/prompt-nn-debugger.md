@@ -46,7 +46,7 @@ I will describe:
 **GENERALIZATION FAILURE:**
 1. Is there a train/test gap? If >10% accuracy gap, overfitting.
 2. Is there data leakage? Check for duplicates across splits.
-3. Are labels correct? Manually inspect 20 random samples.
+3. Are labels correct? Mannually inspect 20 random samples.
 4. Is the test distribution different from training? Check feature distributions.
 
 **HYPERPARAMETER PROBLEM:**

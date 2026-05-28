@@ -138,7 +138,7 @@ the LLM generates an answer?
 
 - A) The model is retrained on the query
 - B) Relevant documents are retrieved and injected into the prompt
-- C) The user manually selects context
+- C) The user mannually selects context
 - D) The model searches its own weights
 
 **Correct: B) Relevant documents are retrieved and injected into the prompt**

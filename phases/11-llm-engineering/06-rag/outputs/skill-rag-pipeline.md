@@ -55,7 +55,7 @@ Indexing happens once per document. Querying happens on every user request.
 
 If the right chunks are not being retrieved:
 1. Print the query embedding and verify it's non-zero
-2. Check cosine similarities manually for a known-relevant chunk
+2. Check cosine similarities mannually for a known-relevant chunk
 3. Try rephrasing the query to match document vocabulary
 4. Verify the embedding model matches between index and query time
 5. Check if the relevant content was lost during chunking
