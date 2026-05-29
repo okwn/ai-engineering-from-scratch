@@ -161,3 +161,6 @@ See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Be kind, be helpful, be constructi
   exception and only because the parser maps them.
 - Code runs as-is with the dependencies listed in the lesson.
 - Build from scratch first, framework second.
+
+## Contributors
+- Documentation improvements (2026)
